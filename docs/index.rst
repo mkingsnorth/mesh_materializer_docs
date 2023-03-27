@@ -1,0 +1,24 @@
+.. Mesh Materializer documentation master file, created by
+   sphinx-quickstart on Mon Mar 27 14:40:26 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Mesh Materializer
+=============================================
+
+.. image:: images/mesh_materializer_splash.jpg
+  :alt: Mesh Materializer
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
