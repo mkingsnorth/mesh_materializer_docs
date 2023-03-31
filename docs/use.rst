@@ -27,21 +27,32 @@ Step by Step
     .. image:: images/source_object_select.jpg
         :alt: Mesh Materializer
 
+    .. warning::
+
+        Ideally, **Source Objects** should:
+
+        * Have a good level of topology so that they can be deformed (good number of vertices and quad faces).
+        * Not have parents/children.
+
 #. Then press *shift* and select the **Target Object** (the object we are projecting onto).  Both objects should be selected.
 
     .. tip::
 
-        The target object is expected to have at least one UV Map.  Whichever UV Map is selected under the *Object Data Properties* tab on the right hand side will be used.
+        The Target Object is expected to have at least one UV Map.  Whichever UV Map is selected under the *Object Data Properties* tab on the right hand side will be used.
 
         .. image:: images/target_object_select.jpg
             :alt: Mesh Materializer
+
+    .. warning::
+
+        The Target Object's UV Map needs to have **non overlapping faces** in order for the Add-on to work otherwise nothing may appear.  For mirrored objects, see the :ref:`Tips and Troubleshooting` section for potential workarounds.
 
 #. Right-Click in the viewport, and select *Mesh Materializer - Create UV Mesh* from the submenu that appears.
 
     .. image:: images/right-click-menu.jpg
         :alt: Mesh Materializer
 
-#. A new object will be created with the *Mesh Materializer* modifier added.  Initially this new object may appear strange, because the **Source Object** has been stretched across the entire UV Map of the **Target Object**:
+#. A new object will be created named **"<Target Object Name> Mesh Mat"** with the *Mesh Materializer* modifier added.  Initially this new object may appear strange, because the **Source Object** has been stretched across the entire UV Map of the **Target Object**:
 
     .. image:: images/howto_initial.jpg
         :alt: Mesh Materializer
