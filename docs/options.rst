@@ -110,11 +110,11 @@ Preview UVs
 --------------------
 
 .. figure:: images/preview_uvs.gif
-  :alt: Preview UVs feature
+  :alt: :ref:`Preview UVs` feature
 
-  The *Preview UVs* checkbox displays the UV Map of the Target Object in 3D space with the Source Object projected onto it.  The Preview Position, Scale and Height parameters help to position the Preview object, which can be occluded by the Target Object.
+  The :ref:`Preview UVs` checkbox displays the UV Map of the Target Object in 3D space with the Source Object projected onto it.  The Preview Position, Scale and Height parameters help to position the Preview object, which can be occluded by the Target Object.
 
-It can be difficult to position the Source Object on a complex UV Map.  By ticking the *Preview UVs* checkbox, the add-on changes to a 'Preview Mode' which tries to help you by visualizing how the Source Object is projected by showing its position on the Target Object's UV Map.  You can then change the above parameters and the Source Object will also update.
+It can be difficult to position the Source Object on a complex UV Map.  By ticking the :ref:`Preview UVs` checkbox, the add-on changes to a 'Preview Mode' which tries to help you by visualizing how the Source Object is projected by showing its position on the Target Object's UV Map.  You can then change the above parameters and the Source Object will also update.
 
 Often this Preview mode may be hidden by the original Target Object, so there are additional parameters below to help you reposition it.  These parameters do not affect the final result.
 

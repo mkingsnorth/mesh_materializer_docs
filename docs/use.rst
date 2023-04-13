@@ -72,14 +72,14 @@ Step by Step
 
     .. tip::
 
-        This can also be visualised by ticking the *Preview UVs* checkbox in the *Mesh Materializer* modifier.  This will display the **Target Object**'s UV Map in the viewport with the **Source Object** projected onto it.
+        This can also be visualised by ticking the :ref:`Preview UVs` checkbox in the *Mesh Materializer* modifier.  This will display the **Target Object**'s UV Map in the viewport with the **Source Object** projected onto it.
 
         .. figure:: images/preview_uvs_jacket.jpg
             :alt: Mesh Materializer
 
-            Here the *Preview UVs* mode is ticked, which switches on the UV Preview.  The Source Object can be seen just on the edge of the UV island.  Also, the Preview *Offset* and *Scale* parameters have been changed to move the preview object into view.
+            Here the :ref:`Preview UVs` mode is ticked, which switches on the UV Preview.  The Source Object can be seen just on the edge of the UV island.  Also, the Preview *Offset* and *Scale* parameters have been changed to move the preview object into view.
 
-#. Unticking the *Preview Mode*, change the *Offset* parameters to move the Source Object along the **Target Object**'s surface.
+#. Unticking the :ref:`Preview Mode<Preview UVs>` if it isn't already, change the *Offset* parameters to move the Source Object along the **Target Object**'s surface.
 
     .. figure:: images/mesh_mat_jacket_moving_badge.gif
         :alt: Mesh Materializer
