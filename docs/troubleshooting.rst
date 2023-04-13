@@ -59,20 +59,20 @@ The Source Object has a low number of faces and does not appear at all
 This may be because all the vertices of the object do not fit on the UV Map.  Try using the  the :ref:`Preview UVs` option with the :ref:`Preview with slicing` **unticked** to find the Source Object.
 
 ===========================================================================================
-I get the error "No Mesh Data to Join" when I try to join the Mesh Mat object with another
+I get the error "No Mesh Data to Join" when I try to join the UV Mesh object with another
 ===========================================================================================
 
-Because the *Mesh Mat* object is generated from other objects, the *Mesh Materializer* modifier needs to be applied to make the mesh data permanent before it can be joined.  Do this by selecting the *Mesh Mat* object, going to the modifiers tab, and selecting *Apply*.
+Because the *UV Mesh* object is generated from other objects, the *Mesh Materializer* modifier needs to be applied to make the mesh data permanent before it can be joined.  Do this by selecting the *UV Mesh* object, going to the modifiers tab, and selecting *Apply*.
 
 .. image:: images/mesh_mat_apply_modifier.png
 
 ===========================================================================================
-Using the *Mesh Mat* object as a Boolean cutter on the Target Object
+Using the *UV Mesh* object as a Boolean cutter on the Target Object
 ===========================================================================================
 
 .. image:: images/boolean_cutter.png
 
-It is best to apply the *Mesh Materializer* modifier on the *Mesh Mat* object before using as a Boolean cutter on the Target Object.  Otherwise, there will be a cyclic relationship between the Target Object and the *Mesh Mat* cutter.
+It is best to apply the *Mesh Materializer* modifier on the *UV Mesh* object before using as a Boolean cutter on the Target Object.  Otherwise, there will be a cyclic relationship between the Target Object and the *UV Mesh* cutter.
 
 
 ==================================

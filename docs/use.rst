@@ -60,7 +60,7 @@ Step by Step
 
         .. image:: images/quick_button.png
 
-#. A new object will be created named **"<Target Object Name> Mesh Mat"** with the *Mesh Materializer* modifier added.  Initially this new object may appear strange, because the **Source Object** has been stretched across the entire UV Map of the **Target Object**:
+#. A new object will be created named **"<Source Object Name> - <Target Object Name> UV Mesh"** with the *Mesh Materializer* modifier added.  Initially this new object may appear strange, because the **Source Object** has been stretched across the entire UV Map of the **Target Object**:
 
     .. image:: images/howto_initial.jpg
         :alt: Mesh Materializer

@@ -5,7 +5,7 @@ Options
 .. figure:: images/opts_source_obj_target_obj.jpg
     :alt: The Source Object, Target Object and Materialized Object.
 
-    The Source Object, Target Object and Mesh Mat Object.
+    The Source Object, Target Object and UV Mesh Object.
 
 
 .. figure:: images/cube_uvmap.jpg
@@ -14,7 +14,7 @@ Options
     The Target Object's UV Map.
 
 
-When the add-on runs and the **"<Target Object Name> Mesh Mat"** object is created, it has a Modifier attached to it called *Mesh Materializer* which controls all settings for how the **Source Object** is mapped onto the **Target Object**:
+When the add-on runs and the **UV Mesh** object is created, it has a Modifier attached to it called *Mesh Materializer* which controls all settings for how the **Source Object** is mapped onto the **Target Object**:
 
 =====================
 Modifier Settings
