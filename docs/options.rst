@@ -2,7 +2,7 @@
 Options
 #####################################
 
-.. figure:: images/opts_source_obj_target_obj.jpg
+.. figure:: images/opts_source_obj_target_obj.png
     :alt: The Source Object, Target Object and Materialized Object.
 
     The Source Object, Target Object and UV Mesh Object.
