@@ -2,10 +2,12 @@
 How To Use
 #####################################
 
+Here we will project a rectangular badge onto a Jacket:
+
 .. figure:: images/mesh_mat_howto.jpg
     :alt: Mesh Materializer
 
-    Here we will project a rectangular badge onto a Jacket (Jacket Credit: |Curtis Kinney|)
+    Jacket Credit: |Curtis Kinney|
 
 .. |Curtis Kinney| raw:: html
 
