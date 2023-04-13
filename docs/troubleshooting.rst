@@ -52,6 +52,11 @@ If you perhaps changed the *Offset* parameters and the Source Object disappears 
 
     In the image above the Preview Mode shows the donut is outside of the UV faces, so the object would not appear.
 
+========================================================================
+The Source Object has a low number of faces and does not appear at all
+========================================================================
+
+This may be because all the vertices of the object do not fit on the UV Map.  Try using the  the :ref:`Preview UVs` option with the :ref:`Preview with slicing` **unticked** to find the Source Object.
 
 ===========================================================================================
 I get the error "No Mesh Data to Join" when I try to join the Mesh Mat object with another
