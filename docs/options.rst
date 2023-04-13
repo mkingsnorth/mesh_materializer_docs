@@ -5,7 +5,7 @@ Options
 .. figure:: images/opts_source_obj_target_obj.jpg
     :alt: The Source Object, Target Object and Materialized Object.
 
-    The Source Object, Target Object and Materialized Object.
+    The Source Object, Target Object and Mesh Mat Object.
 
 
 .. figure:: images/cube_uvmap.jpg
@@ -103,7 +103,6 @@ Offset Scale
   :alt: Offset Position
 
   The same Source Object  being scaled in UV space using the :ref:`Preview UVs` option.
-
 
 This controls the size of the Object in UV space.  By default, the setting will be at (1,1,1) which corresponds to the UVW coordinates in UV Space, stretching the object across the whole of one UV Map time (from 0 to 1).  The W direction influences the height of the **Source Object** as well.
 
