@@ -42,7 +42,7 @@ Features:
 .. warning:: 
 
    * Assumes experience with UV Maps.
-   * The add-on does not currently work with mirrored UVs.
+   * The add-on does not currently work with overlapping UVs.
 
 
 .. toctree::
