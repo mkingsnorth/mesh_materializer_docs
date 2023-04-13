@@ -54,6 +54,12 @@ Step by Step
     .. image:: images/right-click-menu.jpg
         :alt: Mesh Materializer
 
+    .. tip:: 
+
+        Access this option quickly by clicking the checkered box icon in the top menu bar of the viewport:
+
+        .. image:: images/quick_button.png
+
 #. A new object will be created named **"<Target Object Name> Mesh Mat"** with the *Mesh Materializer* modifier added.  Initially this new object may appear strange, because the **Source Object** has been stretched across the entire UV Map of the **Target Object**:
 
     .. image:: images/howto_initial.jpg
